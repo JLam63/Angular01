@@ -1,0 +1,16 @@
+<div class="table-responsive">
+  <table class="table" *ngIf='products && products.length'>
+    <thead>
+      <th>ProductID</th>
+      <th>Product Name</th>
+      <th>Price</th>
+    </thead>
+    <tbody>
+      <tr *ngFor='let john of products'>
+        <td>{{john.ProductID}}</td>
+        <td>{{john.ProductName | lowercase}}</td>
+        <td>{{john.Price | currency:'AUD'}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
