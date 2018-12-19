@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "pageTitle",
+  selector: "page-Title",
   // template: `<h1>Hello</h1>
   //             <div>First Name: {{firstName}}</div><br />
   //             <div>Last Name: {{lastName}}</div><br />
@@ -14,9 +14,9 @@ export class AppComponent {
     firstName:string = "John";
     lastName:string = "Lam";
     products:any[] = [
-      // {"ProductID":123, "ProductName":"Drone", "Price": 123},
-      // {"ProductID":456, "ProductName":"Car", "Price": 30000},
-      // {"ProductID":789, "ProductName":"House", "Price": 500000}
+       {"ProductID":123, "ProductName":"Drone", "Price": 123},
+       {"ProductID":456, "ProductName":"Car", "Price": 30000},
+       {"ProductID":789, "ProductName":"House", "Price": 500000}
     ];
 
 
